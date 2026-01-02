@@ -1,3 +1,4 @@
+type,circuit,level,name,comment,qq,zz,pbsb,id,*name,part,type,divisor/values,unit,comment
 # type (r[1-9];w;u),circuit,name,[comment],[QQ],ZZ,PBSB,[ID],field1,part (m/s),datatypes/templates,divider/values,unit,comment,field2,part (m/s),datatypes/templates,divider/values,unit,comment,field3,part (m/s),datatypes/templates,divider/values,unit,comment,field4,part (m/s),datatypes/templates,divider/values,unit,comment
 
 #r,hmu,Standby,,,,B503,020003,,,HEX:6,,,,,,,,,,,,,,,,,,,,,
@@ -71,8 +72,6 @@
 # FF35xx: ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # Heat pump configuration menu values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #r;w,,CompressorModulationType,,,,,FF353D,,,UCH,0=hard;1=soft,,Compressor Modulation type (soft/hard),,,,,,,,,,,,,,,,,,
-
-type,circuit,level,name,comment,qq,zz,pbsb,id,*name,part,type,divisor/values,unit,comment
 *r,
 *u,
 *w,
