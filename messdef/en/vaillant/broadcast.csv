@@ -6,11 +6,11 @@ u,Broadcast,,Outsidetemp,outside temperature,,fe,b516,01,value,,D2B,,°C,tempera
 u,Broadcast,,HwcStatus,state hot water,,fe,b505,27,onoff,,UCH,0=off;1=on,,,vf1,,UCH,,°C,temperature,onoff_1,,UCH,0=off;1=on,,
 u,Broadcast,,Load,quick - hot water tank filling,,fe,b505,06,value,,UCH,0=off;1=on,,
 
-#u,,NoiseReduction,Status Noise Reduction,,fe,b508,02,,,UCH,,,,State,,UCH,,,
+u,Broadcast,,NoiseReduction,Status Noise Reduction,,fe,b508,02,,,UCH,,,,State,,UCH,,,
 # START Unknown messages,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-#u,,unknownBCb505h5c,unknown BC,,fe,b505,5c,,,HEX:1,,,,,,,,,,,,,,,
-#u,,unknownBCb508h09,unknown BC,,fe,b508,09,,HEX:1,,,,,,,,,,,,,,,
-#u,,unknownBCb510h06,unknown BC,,fe,b510,06,,,HEX:1,,,,,,,,,,,,,,,
+u,Broadcast,,unknownBCb505h5c,unknown BC,,fe,b505,5c,,,HEX:*,,,,,,,,,,,,,,,
+u,Broadcast,,unknownBCb508h09,unknown BC,,fe,b508,09,,,HEX:*,,,,,,,,,,,,,,,
+u,Broadcast,,unknownBCb510h06,unknown BC,,fe,b510,06,,,HEX:*,,,,,,,,,,,,,,,
 # END Unknown messages,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
 
