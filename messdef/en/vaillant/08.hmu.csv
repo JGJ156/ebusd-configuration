@@ -192,7 +192,7 @@ r,hmu,service,TestFlowTempImmersionHeater,Vorlauftemperatur Heizstab,,,b514,0582
 w,hmu,service,EnableTestEEVTemp,read EEV temperature,,,b514,053b,ignore,,HEX:3,=000000,,,value,,HEX:3,,,
 r,hmu,service,TestEEVTemp,EEV temperature,,,b514,053b000000,value,,IGN:2,,,,ign,,IGN:2,,,,sin,,SIN,10,°C,
 
-r,hmu,,CurrentConsumedPowerWatt,(polled every minute by VR921),,,B516,14,value,,IGN:1,,,current consumed electrical power (Watt),value,,UIN,10,kW
+r,hmu,,CurrentConsumedPowerWatt,(polled every minute by VR921),,,B516,14,value,,IGN:1,,,,,,EXP,,,current consumed electrical power (Watt),
 r,hmu,,JDaycount,,,,B516,1000ffff49050000,value,,IGN:4,,,,value,,UIN,,,,,,,,,,,,,,,
 r,hmu,,YieldTotal,,,,b516,1801,value,,IGN:1,,,,value,,UIN,,kWh,
 r,hmu,,ConsumptionTotal,,,,b516,1802,value,,IGN:1,,,,value,,UIN,,kWh,

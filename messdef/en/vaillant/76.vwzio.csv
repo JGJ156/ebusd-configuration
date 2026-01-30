@@ -1,8 +1,9 @@
-type,circuit,level,name,comment,qq,zz,pbsb,id,*name,part,type,divisor/values,unit,comment
+ type,circuit,level,name,comment,qq,zz,pbsb,id,*name,part,type,divisor/values,unit,comment
 *w,
 *r,
 
-#*r,,,,,,,B509,540200,,,IGN:4,,,,,,,,,,,,,,,,,,,,,
+r,vwzio,,JUnknownPollB503,,,,B503,020001,,,HEX:*
+
 r,,,RunDataReturnFlowTemp,,,,B509,5402000609,value,,IGN:4,,,,,,EXP,,
 
 r,vwzio,,JUnknown50,,,,B509,5402005E0F,,,IGN:4,,,,,,D1C,,
@@ -37,10 +38,13 @@ r,vwzio,,JUnknown92,,,,B509,540200C408,,,HEX:*,,
 r,vwzio,,JUnknown93,,,,B509,540200DE08,,,HEX:*,,
 
 
-#*r,,,,,,,B510,,,,,,,,,,,,,,,,,,,,,,,,,
 r,,,JunknownPoll10sB510_000000ffffff050000,,,,B510,000000ffffff050000,,,HEX:*,,
 
-r,vwzio,,JunknownMPoll10sB512h,,,76,B512,0f0001,,,IGN:3,,,Unknown poll every 10 seconds from CTLV2 to VWZ,,,D2C
+r,,,JunknownPollB511_0101,,,,B511,0101,,,HEX:*,,
+
+r,vwzio,,JunknownMPoll10sB5120f0001,,,,B512,0f0001,,,IGN:3,,,Unknown poll every 10 seconds from CTLV2 to VWZ,,,D2C
+
+r,vwzio,,JunknownMPoll10sB512061300109c0700,,,,B512,061300109c0700,,,HEX:*,,,Unknown poll
 
 w,,service,EnableTestThreeWayValve,enable test 3 way valve,,,b514,0502,ignore,,HEX:3,=03FFFF,,,
 r,,service,TestThreeWayValve,3 way valve,,,b514,0502,value,,IGN:2,,,,value,,UCH,0=heating;1=dhw,,
